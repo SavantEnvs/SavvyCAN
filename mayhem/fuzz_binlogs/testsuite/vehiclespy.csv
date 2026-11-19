@@ -1,0 +1,2 @@
+Line,Abs Time(Sec),Rel Time (Sec),Status,Er,Tx,Description,Network,Node,Arb ID,Remote,Xtd,B1,B2,B3,B4,B5,B6,B7,B8,Value,Trigger,Signals
+1,0.0,0.0,0,F,F,desc,HS CAN,,123,F,F,01,02,03,04,05,06,07,08,,,

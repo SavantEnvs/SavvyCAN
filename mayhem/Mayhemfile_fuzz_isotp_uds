@@ -1,0 +1,9 @@
+project: savantenvs/SavvyCAN
+target: fuzz_isotp_uds
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_isotp_uds/testsuite
+cmds:
+  - cmd: /mayhem/out/fuzz_isotp_uds
+    libfuzzer: true
+    timeout: 10

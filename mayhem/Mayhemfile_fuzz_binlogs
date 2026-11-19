@@ -1,0 +1,9 @@
+project: savantenvs/SavvyCAN
+target: fuzz_binlogs
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_binlogs/testsuite
+cmds:
+  - cmd: /mayhem/out/fuzz_binlogs
+    libfuzzer: true
+    timeout: 10

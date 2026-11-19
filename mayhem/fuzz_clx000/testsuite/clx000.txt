@@ -1,0 +1,20 @@
+# Logger type: CL2000
+# HW rev: 3.4
+# FW rev: 5.71
+# Logger ID: 1A2B3C4D
+# Session No.: 1
+# Split No.: 1
+# Time: 20240101T000000
+# Value separator: ";"
+# Time format: 4
+# Time separator: ""
+# Time separator ms: ""
+# Date separator: ""
+# Time and date separator: "T"
+# Bit-rate: 500000
+# Silent mode: 0
+# Cyclic mode: 0
+Timestamp;Type;ID;Data
+20240101T000000000;0;123;0102030405060708
+20240101T000000010;1;18FEF100;
+20240101T000000020;0;7FF;AABB

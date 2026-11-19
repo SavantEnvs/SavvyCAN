@@ -1,0 +1,4 @@
+# SavvyCAN log notes
+# marker 1.25 Start
+Time Stamp,ID,Extended,Dir,Bus,LEN,D1,D2
+1000,00000123,false,Rx,0,2,01,02

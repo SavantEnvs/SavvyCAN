@@ -1,0 +1,400 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: ZD VCU TPMS RESERVED_FRAMES RCM RAC PCU PAS ESP DiagnosticTester CHG CDCM BMS ABS
+
+
+BO_ 1091 VCU_Stored_SC_Errors: 8 VCU
+ SG_ VCUStoredBeltWarningLightSC : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredLowSOCSC : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredRearSeatBuckle2LightSC : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredReverseLightSC : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredRadioMuteSC : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredIllumOutputSC : 21|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredNeutralLightSC : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredDriveEnableLightSC : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredOvertempLightSC : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredIndicationBarSupplySC : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredPowerLimitLightSC : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredTransceiverTXSC : 20|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredElHazardLightSC : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredBrakeWarningLightSC : 38|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredEconomyGaugeSC : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredTransceiverSupplySC : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredDischargeRequestSC : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredCrashLineSC : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredABSWarningLightSC : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredImmoLightSC : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredDriveLightSC : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredAuxBattLowLightSC : 11|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredChargeLightSC : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredTPMSLightSC : 12|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredSpeedGaugeSC : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredEconomyLightSC : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredOnPlugLightSC : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredChimeLineSC : 34|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredESPLightSC : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredSOCGaugeSC : 37|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredMILLightSC : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredParkLightSC : 10|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredAirbagLightSC : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredIgnitionSpeedSC : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredRearSeatBuckle1LightSC : 27|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1092 VCU_Stored_OC_Errors: 8 VCU
+ SG_ VCUStoredImmoLightOC : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredReverseLightOC : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredDischargeRequestOC : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredPowerLimitLightOC : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredRearSeatBuckle1LightOC : 27|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredTPMSLightOC : 12|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredOvertempLightOC : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredSOCGaugeOC : 37|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredESPLightOC : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredCrashLineOC : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredIndicationBarSupplyOC : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredEconomyLightOC : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredAirbagLightOC : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredEconomyGaugeOC : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredTransceiverSupplyOC : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredDriveLightOC : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredAuxBattLowLightOC : 11|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredRearSeatBuckle2LightOC : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredIgnitionSpeedOC : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredMILLightOC : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredChimeLineOC : 34|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredDriveEnableLightOC : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredLowSOCOC : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredElHazardLightOC : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredBrakeWarningLightOC : 38|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredIllumOutputOC : 21|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredABSWarningLightOC : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredTransceiverTXOC : 20|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredBeltWarningLightOC : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredSpeedGaugeOC : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredRadioMuteOC : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredParkLightOC : 10|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredNeutralLightOC : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredChargeLightOC : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUStoredOnPlugLightOC : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1088 VCU_Status: 8 VCU
+ SG_ TPMSButtonLearnActivation : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUSWYear : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ VCUSWVersion : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ VCUSWDay : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ VCUSWMonth : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ VCUPTCReady : 38|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1089 VCU_Present_SC_Errors: 8 VCU
+ SG_ VCUPresentMILLightSC : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentImmoLightSC : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentEconomyLightSC : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentTransceiverSupplySC : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentIgnitionSpeedSC : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentChimeLineSC : 34|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentElHazardLightSC : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentBrakeWarningLightSC : 38|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentRadioMuteSC : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentSOCGaugeSC : 37|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentNeutralLightSC : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentParkLightSC : 10|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentChargeLightSC : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentEconomyGaugeSC : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentCrashLineSC : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentESPLightSC : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentTransceiverTXSC : 20|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentReverseLightSC : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentAirbagLightSC : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentIndicationBarSupplySC : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentDriveLightSC : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentRearSeatBuckle1LightSC : 27|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentDischargeRequestSC : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentAuxBattLowLightSC : 11|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentDriveEnableLightSC : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentLowSOCSC : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentBeltWarningLightSC : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentSpeedGaugeSC : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentABSWarningLightSC : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentOvertempLightSC : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentOnPlugLightSC : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentIllumOutputSC : 21|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentPowerLimitLightSC : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentTPMSLightSC : 12|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentRearSeatBuckle2LightSC : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1090 VCU_Present_OC_Errors: 8 VCU
+ SG_ VCUPresentIndicationBarSupplyOC : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentLowSOCOC : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentOvertempLightOC : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentEconomyLightOC : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentParkLightOC : 10|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentRadioMuteOC : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentElHazardLightOC : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentBeltWarningLightOC : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentDriveEnableLightOC : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentImmoLightOC : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentAirbagLightOC : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentSOCGaugeOC : 37|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentSpeedGaugeOC : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentRearSeatBuckle2LightOC : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentReverseLightOC : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentIllumOutputOC : 21|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentBrakeWarningLightOC : 38|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentTransceiverSupplyOC : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentABSWarningLightOC : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentTransceiverTXOC : 20|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentDriveLightOC : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentPowerLimitLightOC : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentCrashLineOC : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentIgnitionSpeedOC : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentAuxBattLowLightOC : 11|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentChargeLightOC : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentOnPlugLightOC : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentNeutralLightOC : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentEconomyGaugeOC : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentChimeLineOC : 34|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentRearSeatBuckle1LightOC : 27|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentESPLightOC : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentTPMSLightOC : 12|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentDischargeRequestOC : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCUPresentMILLightOC : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 929 VCU_OffBoardData_1: 8 VCU
+ SG_ WarningLightTemperatureActivated : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ WarningLightAirbagActivated : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ OnPlugBatteryTemperatureControl : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ OnPlugPCUChargeEnabled : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ KeyOnEPOBroken : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ OnPlugFullChargeRequested : 14|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ WarningLightTPMSActivated : 20|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ KeyOnTractionEnabled : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ WarningLightPowerLimitActivated : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ KeyOnImmobilizerEnabled : 12|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ExternalTemperature : 39|8@0- (0.5,0) [-64|63.5] "degC" Vector__XXX
+ SG_ WarningLightESPActivated : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ KeyOnGearPosition : 27|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ WarningLightMalfunctionActivated : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ WarningLightBrakeActivated : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ OnPlugEndOfCharge : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ OnPlugBatteryChargeEnabled : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ WarningLightABSActivated : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ NominalBatteryCapacity : 47|16@0+ (0.1,0) [0|6553.5] "kWh" Vector__XXX
+ SG_ WarningLightLowSOCActivated : 21|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ OnPlugCharging : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ OnPlugBatteryEvaluation : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ KeyOnCrashDetected : 10|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ KeyOnBatteryDischargeEnabled : 11|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ WarningLightElHazardActivated : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VehicleState : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ OnPlugChargerEnabled : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 928 VCU_OffBoardData_0: 8 VCU
+ SG_ DistanceTraveledSinceStart : 7|16@0+ (0.1,0) [0|6553.5] "km" Vector__XXX
+ SG_ BatteryStateOfCharge : 23|16@0+ (0.1,0) [0|6553.5] "%" Vector__XXX
+ SG_ kWhSinceStart : 55|16@0+ (0.01,0) [0|655.35] "kWh" Vector__XXX
+ SG_ OffboardVehicleSpeed : 39|16@0+ (0.1,0) [0|6553.5] "km/h" Vector__XXX
+
+BO_ 592 VCU_Immo: 8 VCU
+ SG_ MoreThanMaxError : 19|1@0+ (1,0) [0|1] ""  PCU
+ SG_ ChallengeResponseActive : 1|1@0+ (1,0) [0|1] ""  PCU
+ SG_ AntennaError : 17|1@0+ (1,0) [0|1] ""  PCU
+ SG_ TransponderError : 16|1@0+ (1,0) [0|1] ""  PCU
+ SG_ ChallengeMissingError : 27|1@0+ (1,0) [0|1] ""  PCU
+ SG_ PartialKeyCodeError : 31|1@0+ (1,0) [0|1] ""  PCU
+ SG_ RequestID : 2|1@0+ (1,0) [0|1] ""  PCU
+ SG_ AntiscanError : 20|1@0+ (1,0) [0|1] ""  PCU
+ SG_ MismatchError : 26|1@0+ (1,0) [0|1] ""  PCU
+ SG_ LEDIndication : 7|3@0+ (1,0) [0|7] ""  PCU
+ SG_ NoCommunicationError : 18|1@0+ (1,0) [0|1] ""  PCU
+ SG_ KeyStatus : 4|2@0+ (1,0) [0|3] ""  PCU
+ SG_ SecurityIDRefuseError : 25|1@0+ (1,0) [0|1] ""  PCU
+ SG_ LessThanMinError : 28|1@0+ (1,0) [0|1] ""  PCU
+ SG_ SecurityIDNotProgrammedError : 24|1@0+ (1,0) [0|1] ""  PCU
+ SG_ SecurityIDMissingError : 29|1@0+ (1,0) [0|1] ""  PCU
+ SG_ UnprogrammedError : 30|1@0+ (1,0) [0|1] ""  PCU
+ SG_ NumberProgrammedKeys : 23|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ ChallengeResponse : 39|32@0+ (1,0) [0|4294967295] ""  PCU
+
+BO_ 2001 VCU_Diagnostic: 8 VCU
+
+BO_ 836 TPMS_Wheel_Pressure: 4 TPMS
+ SG_ SensorPressure_LF : 7|8@0+ (0.025,0) [0|6.375] "bar" Vector__XXX
+ SG_ SensorPressure_RF : 15|8@0+ (0.025,0) [0|6.375] "bar" Vector__XXX
+ SG_ SensorPressure_RR : 23|8@0+ (0.025,0) [0|6.375] "bar" Vector__XXX
+ SG_ SensorPressure_LR : 31|8@0+ (0.025,0) [0|6.375] "bar" Vector__XXX
+
+BO_ 837 TPMS_Status_and_HMI: 8 TPMS
+ SG_ TPMSLearnLastResult : 39|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TPMSTelltaleControl : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TPMSWarning_RR : 11|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TPMSLearnStatus : 19|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TPMSWarning_LF : 3|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TPMSWarning_LR : 23|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TPMSWarning_RF : 15|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TPMSNumberLearnedSensors : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1922 TPMS_Diagnostic: 8 TPMS
+
+BO_ 838 TPMS_Debug: 8 TPMS
+
+BO_ 1941 Reserver_104: 8 RESERVED_FRAMES
+
+BO_ 1525 Reserved_99: 8 RESERVED_FRAMES
+
+BO_ 1493 Reserved_98: 8 RESERVED_FRAMES
+
+BO_ 1631 Reserved_97: 8 RESERVED_FRAMES
+
+BO_ 1630 Reserved_96: 8 RESERVED_FRAMES
+
+BO_ 1629 Reserved_95: 8 RESERVED_FRAMES
+
+BO_ 1628 Reserved_94: 8 RESERVED_FRAMES
+
+BO_ 1627 Reserved_93: 8 RESERVED_FRAMES
+
+BO_ 1626 Reserved_92: 8 RESERVED_FRAMES
+
+BO_ 1625 Reserved_91: 8 RESERVED_FRAMES
+
+BO_ 1624 Reserved_90: 8 RESERVED_FRAMES
+
+BO_ 1623 Reserved_89: 8 RESERVED_FRAMES
+
+BO_ 1622 Reserved_88: 8 RESERVED_FRAMES
+
+BO_ 1621 Reserved_87: 8 RESERVED_FRAMES
+
+BO_ 1620 Reserved_86: 8 RESERVED_FRAMES
+
+BO_ 1619 Reserved_85: 8 RESERVED_FRAMES
+
+BO_ 1618 Reserved_84: 8 RESERVED_FRAMES
+
+BO_ 1617 Reserved_83: 8 RESERVED_FRAMES
+
+BO_ 1616 Reserved_82: 8 RESERVED_FRAMES
+
+BO_ 1615 Reserved_81: 8 RESERVED_FRAMES
+
+BO_ 1614 Reserved_80: 8 RESERVED_FRAMES
+
+BO_ 645 Reserved_8: 8 RESERVED_FRAMES
+
+BO_ 1613 Reserved_79: 8 RESERVED_FRAMES
+
+BO_ 1612 Reserved_78: 8 RESERVED_FRAMES
+
+BO_ 1611 Reserved_77: 8 RESERVED_FRAMES
+
+BO_ 1610 Reserved_76: 8 RESERVED_FRAMES
+
+BO_ 1609 Reserved_75: 8 RESERVED_FRAMES
+
+BO_ 1608 Reserved_74: 8 ZD
+
+BO_ 1607 Reserved_73: 8 RESERVED_FRAMES
+
+BO_ 1606 Reserved_72: 8 BMS
+
+BO_ 1605 Reserved_71: 8 RESERVED_FRAMES
+
+BO_ 1604 Reserved_70: 8 BMS
+
+BO_ 513 Reserved_7: 8 RESERVED_FRAMES
+
+BO_ 1603 Reserved_69: 8 RESERVED_FRAMES
+
+BO_ 1602 Reserved_68: 8 BMS
+
+BO_ 1601 Reserved_67: 8 RESERVED_FRAMES
+
+BO_ 1600 Reserved_66: 8 RESERVED_FRAMES
+
+BO_ 1584 Reserved_65: 8 RESERVED_FRAMES
+
+BO_ 831 Reserved_64: 8 RESERVED_FRAMES
+
+BO_ 830 Reserved_63: 8 RESERVED_FRAMES
+
+BO_ 829 Reserved_62: 8 RESERVED_FRAMES
+
+BO_ 828 Reserved_61: 8 RESERVED_FRAMES
+
+BO_ 827 Reserved_60: 8 RESERVED_FRAMES
+
+BO_ 512 Reserved_6: 8 RESERVED_FRAMES
+
+BO_ 826 Reserved_59: 8 RESERVED_FRAMES
+
+BO_ 825 Reserved_58: 8 RESERVED_FRAMES
+
+BO_ 824 Reserved_57: 8 RESERVED_FRAMES
+
+BO_ 823 Reserved_56: 8 RESERVED_FRAMES
+
+BO_ 822 Reserved_55: 8 RESERVED_FRAMES
+
+BO_ 821 Reserved_54: 8 RESERVED_FRAMES
+
+BO_ 820 Reserved_53: 8 RESERVED_FRAMES
+
+BO_ 819 Reserved_52: 8 RESERVED_FRAMES
+
+BO_ 818 Reserved_51: 8 RESERVED_FRAMES
+
+BO_ 817 Reserved_50: 8 RESERVED_FRAMES
+
+BO_ 1568 Reserved_5: 8 RESERVED_FRAMES
+
+BO_ 816 Reserved_49: 8 RESERVED_FRAMES
+
+BO_ 815 Reserved_48: 8 RESERVED_FRAMES
+
+BO_ 814 Reserved_47: 8 RESERVED_FRAMES
+
+BO_ 813 Reserved_46: 8 RESERVED_FRAMES
+
+BO_ 812 Reserved_45: 8 RESERVED_FRAMES
+
+BO_ 811 Reserved_44: 8 RESERVED_FRAMES
+
+BO_ 810 Reserved_43: 8 RESERVED_FRAMES
+
+BO_ 809 Reserved_42: 8 RESERVED_FRAMES
+
+BO_ 808 Reserved_41: 8 RESERVED_FRAMES
+
